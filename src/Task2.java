@@ -62,7 +62,6 @@ class Task2 {
         int size = mas.length;
 
         List<Long> list = new ArrayList<>();
-
         do {
             list.clear();
             CyclicBarrier cb = new CyclicBarrier(size / 2 + 1);
